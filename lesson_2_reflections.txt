@@ -1,9 +1,9 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 A: A .git file gets created which will store the metadata for future commits.
 
-
-How is the staging area different from the working directory and the repository?
+Q: How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+A: Staging area is a temp location (sort of escrow bank account), where you can intermittently store repositories you want to commit together.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -18,3 +18,6 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+
+git config --global core.editor “’/Applications/TextEdit.app/Contents/MacOS/TextEdit’ -n -w"
