@@ -5,19 +5,18 @@ Q: How is the staging area different from the working directory and the reposito
 What value do you think it offers?
 A: Staging area is a temp location (sort of escrow bank account), where you can intermittently store repositories you want to commit together.
 
-How can you use the staging area to make sure you have one commit per logical
+Q: How can you use the staging area to make sure you have one commit per logical
 change?
+A: Use the git diff command to check the changes made to the files and ensure all of them are relevant to a single logical change.
 
-What are some situations when branches would be helpful in keeping your history
+Q: What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+A: When you want to try out to experiment with something on the code. Branches help you create copies of code and make changes to them without impacting the core working code.
 
-How do the diagrams help you visualize the branch structure?
+Q: How do the diagrams help you visualize the branch structure?
+A: Understand the various versions of the code floating around which probably have new features/functionality in experimentation.
 
-What is the result of merging two branches together? Why do we represent it in
+Q: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+A: Merge the codes across 2 branches so as to add/remove any other piece of code that might have been changed on another branch while the current branch was being worked upon.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
-
-
-git config --global core.editor “’/Applications/TextEdit.app/Contents/MacOS/TextEdit’ -n -w"
