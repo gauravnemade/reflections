@@ -1,2 +1,5 @@
 Q: When would you want to use a remote repository rather than keeping all your work local?
 A: When working with a team
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: Forks are to create a copy of someone else's code which gives due consideration to the original author of the code. Clone is to copy the entire repository and ideally used to copy ones entire code from local to remote (for eg.). Branches enable us to make changes (or experiment) in the code without impacting the main code base.
